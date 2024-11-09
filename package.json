@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "private": true,
+  "scripts": {
+    "lint": "spectral lint",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@stoplight/spectral-cli": "^6.11.0",
+    "@stoplight/spectral-functions": "^1.7.2",
+    "nodemon": "^3.1.7"
+  }
+}
